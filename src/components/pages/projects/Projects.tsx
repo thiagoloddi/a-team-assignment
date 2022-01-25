@@ -98,7 +98,7 @@ const Projects: React.FC = () => {
 
     return (
         <StyledProjects>
-            <SearchBar value="" onChange={() => null} placeholder="Search Projects" />
+            <SearchBar placeholder="Search Projects" />
             <img className="banner" src="/projects-banner.jpeg" alt="banner"/>
             <Container>
                 <img className="logo" src="/a-team-logo-1.svg"  alt="logo"/>

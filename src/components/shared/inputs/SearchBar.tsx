@@ -6,8 +6,6 @@ import { RootState } from '../../../redux/store';
 import { setSearchTerm } from '../../../redux/slices/projectsSlice';
 
 type TProps = {
-    value: string;
-    onChange: ChangeEventHandler;
     placeholder: string;
 }
 

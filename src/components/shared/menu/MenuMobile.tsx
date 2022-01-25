@@ -34,7 +34,6 @@ const StyledMenu = styled(AppBar)`
 
 const MenuMobile: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
-    console.log(isOpen);
     const handleDrawerToggle = useCallback(() => {
         setIsOpen(!isOpen);
     }, [isOpen]);
